@@ -967,6 +967,8 @@ INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-Regular-T1-TLF.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tfm
+INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-Regular-T1-TLF.vf
+INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tfm
 INPUT /home/agam/Documents/resume/resume.aux
 INPUT /home/agam/Documents/resume/resume.run.xml
 OUTPUT /home/agam/Documents/resume/resume.run.xml

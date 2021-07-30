@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.28)  28 JUL 2021 20:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.28)  29 JUL 2021 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1121,12 +1121,12 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 \@quotelevel=\count414
 \@quotereset=\count415
-LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input line 21.
+LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input line 27.
  (/usr/share/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 21.
+(Font)              scaled to size 10.0pt on input line 27.
  (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count416
@@ -1134,20 +1134,20 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 ) (/home/agam/Documents/resume/resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1184,7 +1184,7 @@ LaTeX Font Info:    ... okay on input line 21.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 21.
+LaTeX Info: Redefining \selectfont on input line 27.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count417
@@ -1229,31 +1229,26 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'resume.bbl' not found.
 
 No file resume.bbl.
-Package biblatex Info: Reference section=0 on input line 21.
-Package biblatex Info: Reference segment=0 on input line 21.
+Package biblatex Info: Reference section=0 on input line 27.
+Package biblatex Info: Reference segment=0 on input line 27.
 \c@mv@tabular=\count423
 \c@mv@boldtabular=\count424
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 42.
+(Font)              scaled to size 24.88pt on input line 46.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 42.
+(Font)              scaled to size 24.88pt on input line 46.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 42.
+(Font)              scaled to size 12.0pt on input line 46.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 42.
+(Font)              scaled to size 12.0pt on input line 46.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 42.
+(Font)              scaled to size 8.0pt on input line 46.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 42.
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 42.
+(Font)              scaled to size 8.0pt on input line 46.
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 46.
 (/usr/share/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
-Overfull \hbox (13.17877pt too wide) in paragraph at lines 42--42
-[][] [] [] [] []  
- []
-
-(/home/agam/Documents/resume/page1sidebar.tex
+) (/home/agam/Documents/resume/page1sidebar.tex
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 26.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
@@ -1269,23 +1264,13 @@ File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 32.
 
-Overfull \hbox (71.0108pt too wide) in paragraph at lines 29--32
+Overfull \hbox (20.96898pt too wide) in paragraph at lines 29--32
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 32.
-
-Underfull \hbox (badness 1668) in paragraph at lines 70--75
-[][]  [] 
- []
-
-)
-Overfull \hbox (8.60558pt too wide) in paragraph at lines 70--72
-[]\T1/lato-TLF/m/n/9 Wrote, tested, and de-bugged us-ing \T1/lato-TLF/b/n/9 Java\T1/lato-TLF/m/n/9 , \T1/lato-TLF/b/n/9 JavaScript\T1/lato-TLF/m/n/9 , and \T1/lato-TLF/b/n/9 Chrome 
- []
-
-[1
+) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/agam/Documents/resume/resume.aux)
 
@@ -1301,15 +1286,15 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26037 strings out of 478994
- 531503 string characters out of 5864751
- 1280993 words of memory out of 5000000
+ 26038 strings out of 478994
+ 531525 string characters out of 5864751
+ 1282008 words of memory out of 5000000
  43100 multiletter control sequences out of 15000+600000
- 693558 words of font info for 56 fonts, out of 8000000 for 9000
+ 693969 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,12n,130p,1159b,806s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/share/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on /home/agam/Documents/resume/resume.pdf (1 page, 85055 bytes).
+Output written on /home/agam/Documents/resume/resume.pdf (1 page, 84936 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream

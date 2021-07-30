@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber resume"] 1627517320 "resume.bcf" "resume.bbl" "resume" 1627517320
-  "resume.bcf" 1627517320 106553 5cde0e8563030312bd24697299e4395c "pdflatex"
+["biber resume"] 1627582862 "resume.bcf" "resume.bbl" "resume" 1627582862
+  "resume.bcf" 1627582862 106553 5cde0e8563030312bd24697299e4395c "pdflatex"
   (generated)
   "resume.bbl"
   "resume.blg"
-["pdflatex"] 1627517319 "/home/agam/Documents/resume/resume.tex" "/home/agam/Documents/resume/resume.pdf" "resume" 1627517319
+["pdflatex"] 1627582861 "/home/agam/Documents/resume/resume.tex" "/home/agam/Documents/resume/resume.pdf" "resume" 1627582861
   "/home/agam/.texlive/texmf-var/web2c/pdftex/pdflatex.fmt" 1627509253 2812685 183fee0e770e7b0a43a1f71063327ccb ""
-  "/home/agam/Documents/resume/resume.aux" 1627517319 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/agam/Documents/resume/resume.tex" 1627517297 5612 88353d5733c01ab843132cf4135f322b ""
+  "/home/agam/Documents/resume/resume.aux" 1627582861 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/agam/Documents/resume/resume.tex" 1627582861 3865 e9e6b7764ef2fd2d929cc72e11def699 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1617690507 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1617690507 2908 33404fff2a7b8e169974e96af0be5333 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc" 1617690507 3345 f5bff336afd6959239b79815a9c623d1 ""
@@ -177,16 +177,16 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1617738065 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1627509268 5045527 a0ef06d06af438d62994481e52c2af5f ""
   "altacv.cls" 1627512800 11083 678cec1f58ab5d10489ea1a2911a28c2 ""
-  "page1sidebar.tex" 1627517319 2143 21749a0c6349aadde3f6ea4a1cb85a28 ""
+  "page1sidebar.tex" 1627525480 2186 d39a5e920f6ffe8d0685eb2274525e61 ""
   "resume.aux" 0 -1 0 "pdflatex"
   "resume.bbl" 0 -1 0 "biber resume"
   "resume.run.xml" 0 -1 0 "pdflatex"
-  "resume.tex" 1627517297 5612 88353d5733c01ab843132cf4135f322b ""
+  "resume.tex" 1627582861 3865 e9e6b7764ef2fd2d929cc72e11def699 ""
   (generated)
-  "/home/agam/Documents/resume/resume.log"
-  "/home/agam/Documents/resume/resume.pdf"
-  "resume.aux"
-  "resume.run.xml"
   "resume.bcf"
-  "resume.pdf"
+  "resume.aux"
+  "/home/agam/Documents/resume/resume.pdf"
+  "/home/agam/Documents/resume/resume.log"
+  "resume.run.xml"
   "resume.log"
+  "resume.pdf"
