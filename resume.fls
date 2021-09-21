@@ -946,6 +946,11 @@ INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
+INPUT /usr/share/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
+INPUT /usr/share/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
+INPUT /usr/share/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
+INPUT /usr/share/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
+INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesomeone.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
 OUTPUT /home/agam/Documents/resume/resume.pdf
 INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
@@ -972,6 +977,7 @@ INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tf
 INPUT /home/agam/Documents/resume/resume.aux
 INPUT /home/agam/Documents/resume/resume.run.xml
 OUTPUT /home/agam/Documents/resume/resume.run.xml
+INPUT /usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc

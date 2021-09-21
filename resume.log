@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.28)  30 JUL 2021 19:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.28)  21 SEP 2021 19:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1270,7 +1270,7 @@ Overfull \hbox (20.96898pt too wide) in paragraph at lines 29--32
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 32.
-) [1
+(/usr/share/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd)) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/agam/Documents/resume/resume.aux)
 
@@ -1286,18 +1286,18 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26038 strings out of 478994
- 531525 string characters out of 5864751
- 1284008 words of memory out of 5000000
- 43100 multiletter control sequences out of 15000+600000
- 693969 words of font info for 57 fonts, out of 8000000 for 9000
+ 26048 strings out of 478994
+ 531822 string characters out of 5864751
+ 1285008 words of memory out of 5000000
+ 43106 multiletter control sequences out of 15000+600000
+ 694285 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,12n,130p,1159b,806s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/share/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on /home/agam/Documents/resume/resume.pdf (1 page, 86806 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/share/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
+Output written on /home/agam/Documents/resume/resume.pdf (1 page, 87727 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 31 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
