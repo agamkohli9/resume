@@ -1,6 +1,6 @@
 PWD /home/agam/github/resume
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
-INPUT /home/agam/.texlive/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT /home/agam/github/resume/resume.tex
 OUTPUT resume.log
 INPUT ./altacv.cls
