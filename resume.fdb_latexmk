@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber resume"] 1658516687 "resume.bcf" "resume.bbl" "resume" 1658516687
-  "resume.bcf" 1658516687 106679 e9a0c55e186eae2a26c05ddc622529ba "pdflatex"
+["biber resume"] 1658617934 "resume.bcf" "resume.bbl" "resume" 1658617934
+  "resume.bcf" 1658617934 106679 e9a0c55e186eae2a26c05ddc622529ba "pdflatex"
   (generated)
   "resume.bbl"
   "resume.blg"
-["pdflatex"] 1658516687 "/home/agam/github/resume/resume.tex" "resume.pdf" "resume" 1658516687
-  "/home/agam/github/resume/resume.tex" 1658516686 4002 86cd786e83ed0308958d4719530d7672 ""
+["pdflatex"] 1658617932 "/home/agam/github/resume/resume.tex" "resume.pdf" "resume" 1658617932
+  "/home/agam/github/resume/resume.tex" 1658616684 4002 86cd786e83ed0308958d4719530d7672 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1650179560 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1650179560 2908 33404fff2a7b8e169974e96af0be5333 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc" 1650179560 3345 f5bff336afd6959239b79815a9c623d1 ""
@@ -167,14 +167,14 @@
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1650183167 56029 3f7889dab51d620aa43177c391b7b190 ""
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1650183167 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1651730147 4278762 af3ac1370db81a450c1118eabf1fe718 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1651730143 2927655 7f60e18430481700c034f4a425a17100 ""
-  "altacv.cls" 1654714090 11069 0d2854f70a1d2ff8f41b23cd49924044 ""
-  "page1sidebar.tex" 1654714553 1887 6ff4cdf42cfa5ee30c2b48bae2346442 ""
-  "resume.aux" 1658516687 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1654798221 4278762 af3ac1370db81a450c1118eabf1fe718 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1658616864 2927666 d7f2b93eed279073c5308e88a299be43 ""
+  "altacv.cls" 1658616684 11069 0d2854f70a1d2ff8f41b23cd49924044 ""
+  "page1sidebar.tex" 1658617912 1918 30b355a8d369f33872fa0e701c56a3b1 ""
+  "resume.aux" 1658617932 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "resume.bbl" 0 -1 0 "biber resume"
   "resume.run.xml" 0 -1 0 "pdflatex"
-  "resume.tex" 1658516686 4002 86cd786e83ed0308958d4719530d7672 ""
+  "resume.tex" 1658616684 4002 86cd786e83ed0308958d4719530d7672 ""
   (generated)
   "resume.aux"
   "resume.bcf"
