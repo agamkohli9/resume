@@ -1,105 +1,99 @@
-\documentclass[10pt,a4paper,ragged2e]{altacv}
-\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
-\ifxetexorluatex
-  \setmainfont{Carlito}
-\else
-  \usepackage[utf8]{inputenc}
-  \usepackage[T1]{fontenc}
-  \usepackage[default]{lato}
-\fi
-\definecolor{DarkBlue}{HTML}{00008B}
-\definecolor{SlateGrey}{HTML}{2E2E2E}
-\definecolor{LightGrey}{HTML}{2E2E2E}
-\colorlet{heading}{DarkBlue}
-\colorlet{accent}{DarkBlue}
-\colorlet{emphasis}{SlateGrey}
-\colorlet{body}{LightGrey}
-\renewcommand{\itemmarker}{{\small\textbullet}}
-\renewcommand{\ratingmarker}{\faCircle}
-\addbibresource{sample.bib}
+\documentclass[]{mcdowellcv}
 
-% Makes words not cut off at the end of a line
-\tolerance=1
-\emergencystretch=\maxdimen
-\hyphenpenalty=10000
-\hbadness=10000
+% For mathematical symbols
+\usepackage{amsmath}
+
+% For color
+\usepackage{xcolor}
+
+% Set applicant's personal data for header
+\name{Agam Kohli}
+\address{linkedin.com/in/agam-kohli\linebreak Ann Arbor, MI}
+\contacts{(734) 945-8291\linebreak kohlias@umich.edu}
 
 \begin{document}
-\name{Agam Kohli}
-\tagline{}
-\personalinfo{
-  \mailaddress{kohlias@umich.edu}
-  \phone{(734)~945-8291}
-  \github{github.com/agamkohli9}
-  \linkedin{linkedin.com/in/agam-kohli}
-  \location{Ann Arbor, MI}
-}
 
-%% Make the header extend all the way to the right, if you want.
-\begin{fullwidth}
-\makecvheader
-\end{fullwidth}
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{BSc (Eng)}{University of Michigan}{August 2020 -- April 2023}
+			\small{
+				\begin{itemize}
+					\item Major: Computer Science
+					\item 3.8/4.0 GPA
+					\item Organizations: M-STEM Student Council Board, Michigan Data Science Team,\\Undergraduate Research Opportunity Program
+					\item Coursework: Static/Dynamic Compilation, OS, ML, DS/Algorithms, CV, Web Systems
+				\end{itemize}
+			}
+		\end{cvsubsection}
+	\end{cvsection}
 
-%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
-\AtBeginEnvironment{itemize}{\small}
+	\begin{cvsection}{Experience}
+		\begin{cvsubsection}{AI Fellow}{University of Michigan}{August 2022 -- Present}
+			\small{
+				\begin{itemize}
+					\item Accepted into fellowship where I will partake in a project to fuse the basic safety messages (BSMs) from vehicles with bounding boxes from smart intersections in realtime to potentially reduce unimpaired crashes by 90\%.
+					\item Will partner with startup P3 Mobility to deploy our product in Ann Arbor intersections once it is finished.
+					\item Will partake in Entrepreneurship courses with Ann Arbor startups and global treks with high-impact companies in San Fransisco, NYC, and DC to discuss leveraging Entrepreneurship with AI.
+				\end{itemize}
+			}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Cybersecurity Intelligence Intern}{Ford Motor Company}{May 2022 -- July 2022}
+			\small{
+				\begin{itemize}
+					\item Automated ThreatConnect tag and attribute source rename, merge, and deletion through Rest API calls and MySQL commands, providing Intelligence analysts valuable insight on detecting malicious campaigns.
+					\item Validated 174 Indicators of Compromise to judge maliciousness of IPs, addresses, domains, URLs, and file hashes reported by the Detection team.
+					\item Undertook the Intern City of Tomorrow project to design a way to improve mobility in urban environments using autonomous vehicles and advanced mobility technologies.
+				\end{itemize}
+			}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Software Engineer Intern}{General Motors}{June 2021 -- August 2021}
+			\small{
+				\begin{itemize}
+					\item Optimized the OnStar Activity Map webapp, reducing vehicle emergency system access time from upwards of a few minutes to nearly instantaneous.
+					\item Designed and created a user interface with Java and JavaScript to allow easier and more intuitive access of vehicle emergency systems. Leveraged Maven for backend build automation and WebLogic for webapp deployment.
+					\item Migrated from using an RDD architecture for fault-tolerance in each data center for our Hadoop cluster to implementing direct HDFS replication, further securing GM data.
+				\end{itemize}
+			}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{ML Researcher}{University of Michigan}{Sep. 2020 -- April 2021}
+			\small{
+				\begin{itemize}
+					\item Reduced segmentation time from around 30 minutes per abdominal CT scan using previous technologies to under 5 minutes using Python's Sklearn ML framework and MATLAB for Image Processing.
+					\item Achieved Dice-Sørensen Similarity Coefficient of 54\% using U-NET Convolutional Neural Network.
+				\end{itemize}
+			}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Personal Projects}
+		\begin{cvsubsection}{}{}{}	
+			\small{
+				\begin{itemize}
+					\item \textbf{Decaf Static Compiler} -- Developed front-end and back-end compiler for toy C-like language, Decaf, using C++. Front-end compiled to generic TAC IR using Lex/Yacc. Back-end register allocation using Graph Coloring heuristic Chaitin's Algorithm and optimizations using Dead Code Elimination, Common Subexpression Elimination, Forward Copy Propogation.
+					\item \textbf{Linux Kernel} -- Optimized open-source drivers and kernel modules. 7 pulled commits.
+					\item \textbf{Street Fighter II AI} -- AI based on Deep Q Reinforcement Learning and Convolutional Neural Network that plays SNES game Street Fighter II. Written using Python frameworks PyTorch for RL and CNN and Gym Retro for emulation. Wins 88\% of matches compared to a random model that wins 23\% of matches.
+				\end{itemize}
+			}
+		\end{cvsubsection}
+	\end{cvsection}
 
-%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
-%% You can always just use \marginpar{...} if you do
-%% not need to align the top of the contents to any
-%% \cvsection title in the "main" bar.
-\cvsection[page1sidebar]{Education}
-
-\cvevent{University of Michigan}{Bachelor's of Science in Engineering}{August 2020 -- April 2023}{}
-\begin{itemize}
-    \item Major: Computer Science
-    \smallskip
-    \item 3.8/4.0 GPA
-    \smallskip
-    \item M-STEM Student Council Board
-    \smallskip
-    \item Michigan Data Science Team member
-\end{itemize}
-
-
-\cvsection{Experience}
-
-\cvevent{Cybersecurity Intelligence Intern}{Ford Motor Company}{May 2022 -- July 2022}{Dearborn, MI}
-\begin{itemize}
-\item Automated \textbf{ThreatConnect} tag and attribute source rename, merge, and deletion through \textbf{Rest API} calls and \textbf{MySQL} commands, helping Intelligence analysts better undertand how indicators relate to each other.
-\smallskip
-\item Validated 174 \textbf{Indicators of Compromise} to  judge maliciousness of IPs, addresses, domains, URLs, and file hashes reported by the Detection team.
-\smallskip
-\item Undertook the \textbf{Intern City of Tomorrow} project to design a way to improve mobility in urban environments using autonomous vehicles and advanced mobility technologies.
-\smallskip
-\item Received a perfect score on my final presentation\textemdash the only time my supervisor has ever seen an intern get a perfect score.
-\end{itemize}
-
-\divider
-
-\cvevent{Software Engineer Intern}{General Motors}{June 2021 -- August 2021}{Detroit, MI}
-\begin{itemize}
-\item Augmented vehicle emergency systems by optimizing the OnStar Activity Map webapp to allow easier and more intuitive access of emergency systems
-\smallskip
-\item Migrated from running spark jobs in each data center for our \textbf{Hadoop} cluster to implementing replication
-\smallskip
-\item Wrote, tested, and debugged using \textbf{Java}, \textbf{JavaScript}, and \textbf{Chrome Developer Tools}
-\smallskip
-\item Leveraged \textbf{Maven} for backend build automation and \textbf{WebLogic} for webapp deployment
-\end{itemize}
-
-\divider
-
-\cvevent{ML/Image Processing Researcher}{University of Michigan Biomedical \& Clinical Informatics Lab}{Sep. 2020 -- April 2021}{Ann Arbor, MI}
-\begin{itemize}
-\item Developed \textbf{Image Processing} software to analyze abdominal CT scans for segmenting pancreas using \textbf{Machine Learning} in \textbf{Python} and \textbf{MATLAB}.
-\smallskip
-\item Paid research under Dr. Soroushmehr on behalf of the Undergraduate Research Opportunity Program
-\smallskip
-\item Achieved Dice-Sørensen Similarity Coefficient of 54.33\% using U-NET Convolutional Neural Network
-\end{itemize}
-
-\clearpage
-
-\nocite{*}
-
+	\begin{cvsection}{Skills}
+		\begin{cvsubsection}{}{}{}	
+			\small{
+				\begin{itemize}
+					\item \textbf{Languages} -- Python, C, C++, Java, JS, MATLAB
+					\item \textbf{Softwares} -- LLVM, Lex/Yacc, PyTorch, Git, Bash, Linux, MySQL
+					\item \textbf{Certifications} -- Scaled Agile Framework (SAFe) 5.0 Practitioner
+				\end{itemize}
+			}
+		\end{cvsubsection}
+	\end{cvsection}
+	
 \end{document}
+
