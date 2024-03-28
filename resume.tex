@@ -1,107 +1,205 @@
-\documentclass[]{mcdowellcv}
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
 
-% For mathematical symbols
-\usepackage{amsmath}
+\documentclass[letterpaper,11pt]{article}
 
-% For color
-\usepackage{xcolor}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
 
-% Set applicant's personal data for header
-\name{Agam Kohli}
-\address{linkedin.com/in/agam-kohli\linebreak Ann Arbor, MI}
-\contacts{(734) 945-8291\linebreak kohlias@umich.edu}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{document}
 
-	% Print the header
-	\makeheader
-	
-	% Print the content
-	\begin{cvsection}{Education}
-		\begin{cvsubsection}{BSc (Engineering)}{University of Michigan}{August 2020 -- April 2023}
-			\small{
-				\begin{itemize}
-					\item Major: Computer Science
-					\item 3.8/4.0 GPA
-					\item Organizations: M-STEM Student Council Board, Michigan Data Science Team,\\Undergraduate Research Opportunity Program
-					\item Coursework: Compilers, Computer Architecture, OS, ML, DS/Algorithms, CV, Web Systems
-				\end{itemize}
-			}
-		\end{cvsubsection}
-	\end{cvsection}
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
 
-	\begin{cvsection}{Experience}
-		\begin{cvsubsection}{CS Research Fellow}{Google}{Sept 2022 -- December 2022}
-			\small{
-				\begin{itemize}
-					\item Selected to join competitive 12 week research program by Google Computer Science Research Mentorship Program (CSRMP). I will work 1:1 with a Google mentor on Machine Learning and Compiler research.
-				\end{itemize}
-			}
-		\end{cvsubsection}
+\begin{center}
+    \textbf{\Huge \scshape Agam Kohli} \\ \vspace{1pt}
+    \small (734) 945-8291 $|$ \href{mailto:agamkohli9@gmail.com}{\underline{agamkohli9@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/agam-kohli}{\underline{linkedin.com/in/agam-kohli}} $|$
+    \href{https://github.com/agamkohli9}{\underline{github.com/agamkohli9}}
+\end{center}
 
-		\begin{cvsubsection}{AI Fellow}{University of Michigan}{August 2022 -- Present}
-			\small{
-				\begin{itemize}
-					\item Accepted into fellowship where I am partaking in a project to fuse the basic safety messages (BSMs) from vehicles with bounding boxes from smart intersections in realtime to potentially reduce unimpaired crashes by 90\%.
-					\item Partnering with startup P3 Mobility to deploy our product in Ann Arbor intersections once it is finished.
-					\item Partaking in Entrepreneurship courses with Ann Arbor startups and global treks with high-impact companies in NYC and Washington DC to discuss leveraging Entrepreneurship with AI.
-				\end{itemize}
-			}
-		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Cybersecurity Intelligence Intern}{Ford Motor Company}{May 2022 -- July 2022}
-			\small{
-				\begin{itemize}
-					\item Automated ThreatConnect tag and attribute source rename, merge, and deletion through Rest API calls and MySQL commands, providing Intelligence analysts valuable insight on detecting malicious campaigns.
-					\item Validated 174 Indicators of Compromise to judge maliciousness of IPs, addresses, domains, URLs, and file hashes reported by the Detection team.
-					\item Undertook the Intern City of Tomorrow project to design a way to improve mobility in urban environments using autonomous vehicles and advanced mobility technologies.
-				\end{itemize}
-			}
-		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Software Engineer Intern}{General Motors}{June 2021 -- August 2021}
-			\small{
-				\begin{itemize}
-					\item Optimized the OnStar Activity Map webapp, reducing vehicle emergency system access time from upwards of a few minutes to nearly instantaneous.
-					\item Designed and created a user interface with Java and JavaScript to allow easier and more intuitive access of vehicle emergency systems. Leveraged Maven for backend build automation and WebLogic for webapp deployment.
-					\item Migrated from using an RDD architecture for fault-tolerance in each data center for our Hadoop cluster to implementing direct HDFS replication, further securing GM data.
-				\end{itemize}
-			}
-		\end{cvsubsection}
-		
-		\begin{cvsubsection}{ML Researcher}{University of Michigan}{Sep. 2020 -- April 2021}
-			\small{
-				\begin{itemize}
-					\item Reduced segmentation time from around 30 minutes per abdominal CT scan using previous technologies to under 5 minutes using Python's Sklearn ML framework and MATLAB for Image Processing.
-					\item Achieved Dice-Sørensen Similarity Coefficient of 54\% using U-NET Convolutional Neural Network.
-				\end{itemize}
-			}
-		\end{cvsubsection}
-	\end{cvsection}
-	
-	\begin{cvsection}{Personal Projects}
-		\begin{cvsubsection}{}{}{}	
-			\small{
-				\begin{itemize}
-					\item \textbf{Decaf Static Compiler} -- Developed front-end and back-end compiler for toy C-like language, Decaf, using C++. Front-end compiled to TAC IR using Lex/Yacc. Middle-end optimizations using Dead Code Elimination, Common Subexpression Elimination, Forward Copy Propagation. Back-end register allocation using Chaitin's Graph Coloring heuristic.
-					\item \textbf{Linux Kernel} -- Optimized open-source drivers and kernel modules. 7 pulled commits.
-					\item \textbf{Street Fighter II AI} -- AI based on Deep Q Reinforcement Learning and Convolutional Neural Network that plays SNES game Street Fighter II. Written using Python frameworks PyTorch for RL and CNN and Gym Retro for emulation. Wins 88\% of matches compared to a random model that wins 23\% of matches.
-				\end{itemize}
-			}
-		\end{cvsubsection}
-	\end{cvsection}
 
-	\begin{cvsection}{Skills}
-		\begin{cvsubsection}{}{}{}	
-			\small{
-				\begin{itemize}
-					\item \textbf{Languages} -- Python, C, C++, Java, JS, MATLAB
-					\item \textbf{Softwares} -- LLVM, Lex/Yacc, PyTorch, Apache TVM, Linux
-					\item \textbf{Certifications} -- Scaled Agile Framework (SAFe) 5.0 Practitioner
-				\end{itemize}
-			}
-		\end{cvsubsection}
-	\end{cvsection}
-	
+%-----------RELEVANT EXPERIENCE-----------
+\section{Relevant Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Graduate Software Engineer}{July 2023 -- Present}
+      {Arm}{Austin, TX}
+      \resumeItemListStart
+        \resumeItem{Support verification of architectural and micro-architectural features in ARM Cortex A, R, and M cores}
+        \resumeItem{Develop CPU verification software in C++ and Python}
+        \resumeItem{Document and deploy random test generation methodology}
+      \resumeItemListEnd
+      
+	\resumeSubheading
+		{CS Research Fellow}{Sept 2022 -- December 2022}
+		{Google}{Remote}
+		\resumeItemListStart
+			\resumeItem{Selected to join competitive 12 week research program by Google Computer Science Research Mentorship Program (CSRMP) 2022B cohort.}
+			\resumeItem{Worked 1:1 with a Google mentor on navigating Machine Learning and Compiler research with Apache TVM.}
+			\resumeItem{Attend virtual networking events, career panels, tech talks, and information sessions about computing research opportunities.}
+		\resumeItemListEnd
+
+	\resumeSubheading
+		{AI Fellow}{August 2022 -- April 2023}
+		{University of Michigan}{Ann Arbor, MI}
+		\resumeItemListStart
+			\resumeItem{Fused the basic safety messages from vehicles with bounding boxes from smart intersections in real time to potentially reduce unimpaired crashes by 90\%.}
+			\resumeItem{Partnered with AI startup P3 Mobility to deploy our product in Ann Arbor intersections.}
+			\resumeItem{Attendeded Entrepreneurship courses with Ann Arbor startups and global treks with high-impact companies in San Fransisco to discuss leveraging Entrepreneurship with AI.}
+		\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------RELEVANT PROJECTS-----------
+\section{Relevant Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Decaf Static Compiler} $|$ \emph{C++, Compilers, Lex/Yacc}}{January 2022 -- April 2022}
+          \resumeItemListStart
+            \resumeItem{Developed a static compiler for toy C-like language, Decaf, using C++.}
+            \resumeItem{Front-end compiled to a flexible three address code IR using Lex/Yacc.}
+            \resumeItem{Middle-end optimizations using Dead Code Elimination, Common Subexpression Elimination, Forward Copy Propagation.}
+            \resumeItem{Back-end register allocation using Chaitin's Graph Coloring heuristic.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Street Fighter II AI} $|$ \emph{Python, PyTorch, Reinforcement Learning, Conv. Net}}{April 2022}
+          \resumeItemListStart
+            \resumeItem{AI based on Deep Q Reinforcement Learning and Convolutional Neural Network that plays SNES game Street Fighter II.}
+            \resumeItem{Written using Python frameworks PyTorch for Reinforcement Learning and Convolutional Neural Network and Gym Retro for emulation.}
+            \resumeItem{Wins 88\% of matches compared to a random model that wins 23\% of matches.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Michigan}{Ann Arbor, MI}
+      {Bachelor of Science in Engineering, Major in Computer Science}{Aug. 2020 -- April 2023}
+          \resumeItemListStart
+			\resumeItem{Major: Computer Science}
+			\resumeItem{3.8/4.0 GPA}
+			\resumeItem{Organizations: M-STEM Student Council Board, Michigan Data Science Team,\\Undergraduate Research Opportunity Program}
+			\resumeItem{Coursework: Static/Dynamic Compilers, Computer Architecture, OS, ML, DS/Algorithms, CV, Web Systems}
+          \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, C, Python, ARM Assembly} \\
+     \textbf{Softwares}{: LLVM, Lex/Yacc, PyTorch, Apache TVM, Linux} \\
+     \textbf{Certifications}{: Scaled Agile Framework (SAFe) 5.0 Practitioner} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
 \end{document}
 
