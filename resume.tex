@@ -5,6 +5,12 @@
 % License : MIT
 %------------------------
 
+%------------------------
+% Build as follows
+% $ docker build -t latex .
+% $ docker run --rm -i -v "$PWD":/data latex pdflatex resume.tex
+%------------------------
+
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -178,8 +184,8 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {University of Michigan}{Ann Arbor, MI}
-      {Bachelor of Science in Engineering, Major in Computer Science}{Aug. 2020 -- April 2023}
+      {University of Michigan}{Aug. 2020 -- April 2023}
+      {Bachelor of Science in Engineering, Major in Computer Science}{Ann Arbor, MI}
           \resumeItemListStart
 			\resumeItem{Major: Computer Science}
 			\resumeItem{3.8/4.0 GPA}
