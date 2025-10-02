@@ -120,6 +120,7 @@
 \begin{center}
     \textbf{\Huge \scshape Agam Kohli} \\ \vspace{1pt}
     \small (734) 945-8291 $|$ \href{mailto:agamkohli9@gmail.com}{\underline{agamkohli9@gmail.com}} $|$ 
+    Austin, TX $|$
     \href{https://linkedin.com/in/agam-kohli}{\underline{linkedin.com/in/agam-kohli}} $|$
     \href{https://github.com/agamkohli9}{\underline{github.com/agamkohli9}}
 \end{center}
@@ -130,56 +131,52 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Graduate Software Engineer}{July 2023 -- Present}
+      {Software Engineer}{Oct 2024 -- Present}
       {Arm}{Austin, TX}
       \resumeItemListStart
-        \resumeItem{Support verification of architectural and micro-architectural features in ARM Cortex A, R, and M cores}
-        \resumeItem{Develop CPU verification software in C++ and Python}
-        \resumeItem{Document and deploy random test generation methodology}
+        \resumeItem{Lead verification enablement for Arm's latest LITTLE core in ARM's big.LITTLE architecture, the energy-efficient processor in mobile SoCs. Coordinate across global design and verification teams.}
+        \resumeItem{Deliver monthly releases of Raven, Arm's CPU verification enablement suite used by top-level design verification teams of said core, packaging new ISA-level bug detection capabilities into consistent, stable builds.}
+        \resumeItem{Implemented power verification flows in Raven, enabling uni- and multiprocessor systems to verify warm and implementation-defined resets alongside irritators (random interrupts, external debugger events, context changes, etc.), replacing legacy flows and broadening test coverage. }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduate Software Engineer}{July 2023 -- Oct 2024}
+      {Arm}{Austin, TX}
+      \resumeItemListStart
+        \resumeItem{Supported CPU verification of architectural and micro-architectural features in ARM Cortex A, R, and M cores.}
+        \resumeItem{Developed a register corruption checking feature that intentionally corrupts register values until first legal read/write, enabling detection of unintended register accesses and subtle architectural violations.}
+        \resumeItem{Documented and deployed random test generation methodology in C++ and Python.}
       \resumeItemListEnd
       
+    \resumeSubheading
+      {Founder}{January 2025 -- Present}
+      {FortisCard LLC}{Austin, TX}
+      \resumeItemListStart
+        \resumeItem{Founded an Austin-based startup (\href{https://fortis-card.com}{\underline{fortis-card.com}}) that develops and commercializes a cryptocurrency hardware wallet, FortisCard. Leverages elliptic curve cryptography for transaction signing and hierarchical deterministic key management.}
+        % \resumeItem{Managed all aspects of startup development, including product design, technical implementation, market research, and customer outreach.}
+        \resumeItem{Implemented all relevant Bitcoin and Ethereum Improvement Protocols in an offline JavaCard running a restricted version of the JVM. This "cold" environment along with an open source stack from firmware to mobile app ensures verifiable end-to-end security for managing cryptocurrency funds.}
+      \resumeItemListEnd
+
 	\resumeSubheading
 		{CS Research Fellow}{Sept. 2022 -- Dec. 2022}
 		{Google}{Remote}
 		\resumeItemListStart
-			\resumeItem{Selected to join competitive 12 week research program by Google Computer Science Research Mentorship Program (CSRMP) 2022B cohort.}
+			\resumeItem{Selected for Google's competitive 12-week Computer Science Research Mentorship Program 2022B cohort.}
 			\resumeItem{Worked 1:1 with a Google mentor on navigating Machine Learning and Compiler research with Apache TVM.}
-			\resumeItem{Attended virtual networking events, career panels, tech talks, and information sessions about computing research opportunities.}
+      \resumeItem{Attended virtual networking events, career panels, tech talks, and information sessions about computing research opportunities.}
 		\resumeItemListEnd
 
 	\resumeSubheading
 		{AI Fellow}{Aug. 2022 -- April 2023}
 		{University of Michigan}{Ann Arbor, MI}
 		\resumeItemListStart
-			\resumeItem{Fused the basic safety messages from vehicles with bounding boxes from smart intersections in real time to potentially reduce unimpaired crashes by 90\%.}
+			\resumeItem{Fused the basic safety messages from vehicles with bounding boxes from smart intersections in real time to reduce unimpaired crashes by an estimated 90\%.}
 			\resumeItem{Validated AI inference data from smart intersection hardware in real time using Gaussian regressions with ground truth data from CAVs (connected and autonomous vehicles) sent through MQTT.}
-			\resumeItem{Partnered with AI startup P3 Mobility to deploy our product in Ann Arbor intersections.}
-			\resumeItem{Attended Entrepreneurship courses with Ann Arbor startups and global treks with high-impact companies in San Fransisco to discuss leveraging Entrepreneurship with AI.}
+			\resumeItem{Partnered with AI startup P3Mobility to deploy our product in Ann Arbor intersections.}
+			\resumeItem{Attended Entrepreneurship courses with Ann Arbor startups and global treks with high-impact companies in San Francisco to discuss leveraging Entrepreneurship with AI.}
 		\resumeItemListEnd
 
   \resumeSubHeadingListEnd
-
-
-%-----------RELEVANT PROJECTS-----------
-\section{Relevant Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Decaf Static Compiler} $|$ \emph{C++, Compilers, Lex/Yacc}}{Jan. 2022 -- April 2022}
-          \resumeItemListStart
-            \resumeItem{Developed a static compiler for toy C-like language, Decaf, using C++.}
-            \resumeItem{Front-end compiled to a flexible three address code IR using Lex/Yacc.}
-            \resumeItem{Middle-end optimizations using Dead Code Elimination, Common Subexpression Elimination, Forward Copy Propagation.}
-            \resumeItem{Back-end register allocation using Chaitin's Graph Coloring heuristic.}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Street Fighter II AI} $|$ \emph{Python, PyTorch, Reinforcement Learning, Conv. Net}}{April 2022}
-          \resumeItemListStart
-            \resumeItem{AI based on Deep Q Reinforcement Learning and Convolutional Neural Network that plays SNES game Street Fighter II.}
-            \resumeItem{Written using Python frameworks PyTorch for Reinforcement Learning and Convolutional Neural Network and Gym Retro for emulation.}
-            \resumeItem{Wins 88\% of matches compared to a random model that wins 23\% of matches.}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -188,10 +185,9 @@
       {University of Michigan}{Aug. 2020 -- April 2023}
       {Bachelor of Science in Engineering, Major in Computer Science}{Ann Arbor, MI}
           \resumeItemListStart
-			\resumeItem{Major: Computer Science}
 			\resumeItem{3.8/4.0 GPA}
 			\resumeItem{Organizations: M-STEM Student Council Board, Michigan Data Science Team,\\Undergraduate Research Opportunity Program}
-			\resumeItem{Coursework: Static/Dynamic Compilers, Computer Architecture, OS, ML, DS/Algorithms, CV, Web Systems}
+      \resumeItem{Coursework: Static \& Dynamic Compilers, Computer Architecture, OS, ML, DS/Algorithms, CV, Web Systems}
           \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -200,7 +196,7 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: C++, C, Python, ARM Assembly} \\
+     \textbf{Languages}{: C++, Python, ARM Assembly} \\
      \textbf{Softwares}{: LLVM, Lex/Yacc, PyTorch, Apache TVM, Linux} \\
      \textbf{Certifications}{: Scaled Agile Framework (SAFe) 5.0 Practitioner} \\
     }}
